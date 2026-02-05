@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: aliceblue;
+  height: 500px;
+  width: 450px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 12px 20px 5px rgb(122, 120, 120);
+}
+
+.brand-logo {
+  background: url(../images/profile1.png) no-repeat center center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  
+  
+}
+.brand-title{
+  color:rgb(0, 191, 255) ;
+
+}
+.inputs{
+  text-align:left;
+}
+label,button,input{
+  display:block;
+  width:100%;
+  border:none;
+}
